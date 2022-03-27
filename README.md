@@ -17,6 +17,6 @@ PedCAsAnalyzer is a helpful method for CA(chromosomal aneuploidy) diagnosis and 
 * -plot Y----plot, N----don't plot
 * -MAF parent sepcific marker MAF threshold, default='0.02'
 
-* example. To analysis chr21 and chrX aneuploidy for Pedigree named PK662
+* example. To analysis chr21 and chrX aneuploidy for Pedigree named PK662   
 ```python PedCAsAnalyzer.py -task PK662 -ped PK662.ped -chr chr21```
   

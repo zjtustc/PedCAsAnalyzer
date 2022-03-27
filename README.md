@@ -14,9 +14,12 @@ PedCAsAnalyzer is a helpful method for CA(chromosomal aneuploidy) diagnosis and 
 * -task task id
 * -ped PED file
 * -chr chromosomes analysis, for example: chr18 chr21 default:chrX
-* -plot Y----plot, N----don't plot
+* -plot Y----plot, N----don't plot, default=Y
 * -MAF parent sepcific marker MAF threshold, default='0.02'
 
 * example. To analysis chr21 and chrX aneuploidy for Pedigree named PK662   
 ```python PedCAsAnalyzer.py -task PK662 -ped PK662.ped -chr chr21```
-  
+**Notice:** 
+1. VCF files for trios in the "./upload/PK662" folder by default
+2. PED file should named as 'PK662.ped' and in the "./upload/PK662" folder by default
+

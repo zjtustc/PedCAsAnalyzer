@@ -7,4 +7,5 @@ PedCAsAnalyzer is a helpful method for CA(chromosomal aneuploidy) diagnosis and 
 * mode 2: If trios VCF file provided, CA diagnosis and CA type analysis function is avaiable
 
 **2** Ped file
-* Ped file is used to describe the sample relationship, details in [Ped](https://gatk.broadinstitute.org/hc/en-us/articles/360035531972-PED-Pedigree-format)
+* Ped file is used to describe the sample relationship, details in [Ped](https://gatk.broadinstitute.org/hc/en-us/articles/360035531972-PED-Pedigree-format).
+Notice: sample ID in Ped file should be consistent with VCF name
